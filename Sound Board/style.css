@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+/* :root {
+    --left-bg-color: rgba(87, 84, 236, 0.7);
+    --right-bg-color: rgba(236, 225, 59, 0.4);
+    --left-btn-hover-color: rgba(87, 84, 236, 1);
+    --right-btn-hover-color: rgba(236, 225, 59, 1);
+    --hover-width: 75%;
+    --other-width: 25%;
+    --speed: 1000ms;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: steelblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url('https://www.portugal360.de/sites/default/files/images/porto.jpg');
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 4rem;
+    color: black;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+   opacity: 0.5; 
+}
+
+.btn:focus {
+    outline: none;
+}

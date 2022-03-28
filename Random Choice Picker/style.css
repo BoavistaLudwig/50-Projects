@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+<<<<<<< HEAD
+    background-color: #2b88f0;
+=======
+    background-color: #686de0;
+    color: white;
+>>>>>>> b0a92bbb1aaba9f9c298713079524165f7906589
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+<<<<<<< HEAD
+}
+
+h3 {
+    color: white;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.container {
+    width: 500px;
+}
+
+#textarea {
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-family: inherit;
+    padding: 10px;
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.tag {
+    background-color: #f0932b;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.tag.highlight {
+    background-color: #273c75 ;
+=======
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) 0 6px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 100%;
+    width: 800px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+
+h3 {
+    margin: 0;
+    opacity: 0.75;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: black;
+}
+
+.joke {
+    font-size: 30px;
+    letter-spacing: 0.15rem;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.btn {
+    background-color: #9f68e0;
+    border: 0;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+   opacity: 0.75; 
+}
+
+.btn:active {
+    transform: scale(0.98);
+>>>>>>> b0a92bbb1aaba9f9c298713079524165f7906589
+}
