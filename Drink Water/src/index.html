@@ -8,20 +8,34 @@
     <link href="/dist/output.css" rel="stylesheet">
     <title>Drinking Water</title>
 </head>
-<body class="flex flex-col bg-red-100 rounded-md m-8 justify-center">
-  <div>
-    <h1 class="text-black-200 text-3xl pb-8">Financial Times Clone</h1>
-        <div class="flex flex-row justify-center p-4 bg-gray-200">      
-          <h1 class="text-3xl font-bold p-10">1</h1>
-          <h1 class="text-3xl font-bold p-10">2</h1>
-          <h1 class="text-3xl font-bold p-10">3</h1>
-        </div>
+<body class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500 text-white">
+
+<h1 class="text-6xl font-bold">Drink Water</h1>
+
+<h3 class="font-normal">Goal: 2 Liters</h3>
+
+<div class="cup bg-white border-4 border-sky-900 rounded-b-3xl h-80 w-36 my-8 flex flex-col justify-center items-center text-black">
+  <div class="remained flex flex-col flex-1 justify-center items-center text-center" id="remained">
+    <span id="liters" class="text-sm font-bold"></span>
+    <small class="text-xs">Remained</small>
   </div>
-  <div>
-      <h1>Test 123</h1>
-        <p class="-bg-slate-400">This is just a big effing test</p>
-    </div>
-    <div class="box1 bg-black"><h2>Test hallo</h2></div>
-    <script src="script.js"></script>
+  <div class="percentage flex justify-center items-center text-bold text-xl bg-[#144fcb] " id="percentage"></div>
+</div>
+
+<p>Select how many glasses of water that you have drank</p>
+
+<div class="cups flex flex-row flex-wrap justify-between content-center w-48">
+  <div class="cup cup-small full bg-[#144fcb] border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-white cursor-pointertext-sm text-center ">250 ml</div>
+  <div class="cup cup-small full bg-[#144fcb] border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-white text-sm text-center cursor-pointer">250 ml</div>
+  <div class="cup cup-small bg-white border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-black text-sm text-center cursor-pointer">250 ml</div>
+  <div class="cup cup-small bg-white border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-black text-sm text-center cursor-pointer">250 ml</div>
+  <div class="cup cup-small bg-white border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-black text-sm text-center cursor-pointer">250 ml</div>
+  <div class="cup cup-small bg-white border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-black text-sm text-center cursor-pointer">250 ml</div>
+  <div class="cup cup-small bg-white border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-black text-sm text-center cursor-pointer">250 ml</div>
+  <div class="cup cup-small bg-white border-4 border-sky-900 rounded-b-xl h-[64px] w-[40px] my-8 flex flex-col justify-center items-center text-black text-sm text-center cursor-pointer">250 ml</div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
