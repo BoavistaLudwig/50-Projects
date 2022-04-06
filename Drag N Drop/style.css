@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  transition: 0.4s ease;
+  background-color: steelblue;
+}
+
+.empty {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: solid 3px #000;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.fill {
+  background-image: url(https://scfoods.fbitsstatic.net/img/p/kiwi-unidade-70703/257221.jpg);
+  background-size: cover;
+  height: 145px;
+  width: 145px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.hold {
+  border: solid #ccc;
+}
+
+.hovered {
+  background-color: greenyellow;
+  border-color: white;
+  border-style: dashed;
+}
+
+@media (max-width: 800px) {
+  body {
+    flex-direction: column;
+  }
+}
